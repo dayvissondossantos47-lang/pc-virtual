@@ -1,0 +1,79 @@
+name: 🖥️ Simulador de PC Gamer
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  pc-gamer:
+    runs-on: ubuntu-latest
+    name: Simulador de PC com RTX 5060
+    
+    steps:
+      - name: 🚀 Iniciando Sistema
+        run: |
+          echo "========================================"
+          echo "  SISTEMA INICIALIZANDO..."
+          echo "========================================"
+          echo ""
+          echo "Sistema Operacional: Windows 11"
+          echo "Status: ✅ Pronto"
+          echo ""
+
+      - name: 📊 Informações do Processador
+        run: |
+          echo "========================================"
+          echo "          PROCESSADOR"
+          echo "========================================"
+          echo "Modelo: AMD Ryzen 7 7800X3D"
+          echo "Núcleos: 8 | Threads: 16"
+          echo "Frequência: Up to 5.0 GHz"
+          echo "Cache: 104MB"
+          echo "Status: ✅ Operacional"
+          echo ""
+
+      - name: 🎮 Placa de Vídeo (SIMULADA)
+        run: |
+          echo "========================================"
+          echo "         PLACA DE VÍDEO"
+          echo "========================================"
+          echo "Modelo: NVIDIA GeForce RTX 5060"
+          echo "Memória VRAM: 8GB GDDR7"
+          echo "Arquitetura: Blackwell"
+          echo "Suporte: DirectX 12 Ultimate, Ray Tracing"
+          echo "⚠️  AVISO: Isso é SIMULAÇÃO! Não é hardware real!"
+          echo ""
+
+      - name: 🧠 Memória RAM
+        run: |
+          echo "========================================"
+          echo "         MEMÓRIA RAM"
+          echo "========================================"
+          echo "Total: 32GB DDR5 6000MHz"
+          echo "Canal: Duplo"
+          echo "Disponível: 28.5 GB"
+          echo "Status: ✅ Operacional"
+          echo ""
+
+      - name: 💾 Armazenamento
+        run: |
+          echo "========================================"
+          echo "         ARMAZENAMENTO"
+          echo "========================================"
+          echo "SSD NVMe 1TB: 450GB livre / 930GB total"
+          echo "SSD 2TB: 1.2TB livre / 1.9TB total"
+          echo "Leitura: 7000 MB/s | Gravação: 5500 MB/s"
+          echo ""
+
+      - name: 📈 Resumo do Sistema
+        run: |
+          echo "========================================"
+          echo "            RESUMO FINAL"
+          echo "========================================"
+          echo "PC Gamer Configurado com SUCESSO! 🎉"
+          echo ""
+          echo "⚠️ IMPORTANTE: Este é um AMBIENTE DE TESTE"
+          echo "Nenhum jogo roda aqui. Isso é apenas simulação."
+          echo "Para ter esse PC de verdade, continue juntando"
+          echo "seu dinheiro como você já está fazendo! 💪😊"
+          echo "========================================"
